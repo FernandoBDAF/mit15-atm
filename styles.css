@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 12px;
+  }
+  
+  .app {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-history {
+    margin-top: 20px;
+  }
+  
+  .transaction-history h2 {
+    margin-bottom: 10px;
+  }
+  
+  .transaction-history ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transaction-history li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .transaction-history span {
+    margin-right: 20px;
+  }
+  
+  label {
+    margin: 10px;
+  }
+  
+  input[type='number'] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type='submit'] {
+    background-color: #0c80f3;
+    border: 1px solid #0ff166;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  input[type='submit']:disabled {
+    background-color: #ccc;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }  
