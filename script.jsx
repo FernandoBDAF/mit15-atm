@@ -15,7 +15,7 @@ const TransactionHistory = ({ transactions }) => {
   );
 };
 
-const ATMDeposit = ({ onChange, isDeposit, atmMode, isValid }) => {
+const ATMDeposit = ({ onChange, atmMode, isValid }) => {
   return (
     <label className="label huge">
       {atmMode !== "" && (
@@ -102,7 +102,7 @@ const Account = () => {
             Cash Back
           </option>
         </select>
-        <br/>
+        <br />
         <ATMDeposit
           isValid={validTransaction}
           atmMode={atmMode}
@@ -114,5 +114,5 @@ const Account = () => {
     </div>
   );
 };
-// ========================================
+
 ReactDOM.render(<Account />, document.getElementById("root"));
