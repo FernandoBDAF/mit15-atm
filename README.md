@@ -9,7 +9,7 @@ ATM Machine is a project developed during Module 15 of the MITxPro course. The p
 1. **Transaction History**: Implemented a transaction history feature that displays the details of each transaction made by the user.
 2. **Remove Redundant Display**: Removed the display of transactions from the main interface since they are already shown in the select options.
 3. **Improved Layout**: Enhanced the overall layout and styling of the application to provide a better and more intuitive user experience.
-4. **Other small changes like**: Remove bootstrap, format file, change files name, among others.
+4. **Other small changes like**: Format file, change files name, etc.
 
 ## Technologies Used
 
